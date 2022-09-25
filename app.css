@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+}
+
+#search_error {
+  text-align: center;
+  color: red;
+  display: none;
+}
+
+#recent_searches p {
+  margin-bottom: 0;
+}
+
+#thumbs {
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
+.img-wrapper {
+  display: table;
+  height: 140px;
+  width: 200px;
+  table-layout: fixed;
+  float: left;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-bottom: 12px;
+}
+.outer {
+  height: 100%;
+}
+.inner {
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid #e6e6e6;
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+.inner img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 128px;
+}

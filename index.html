@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giphy Search</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Giphy Search</h2>
+      <form id="searchForm">
+        <div class="input-group mb-3">
+          <input
+            id="searchInput"
+            type="text"
+            class="form-control"
+            placeholder="Search for gifs"
+          />
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" id="searchButton">
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+      <div id="search_error">No results returned from your search</div>
+      <div id="recent_searches">
+        <p>Recent Searches</p>
+      </div>
+      <div id="thumbs"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
